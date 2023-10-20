@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Sedgwick+Ave+Display&display=swap');
+
+
+:root{
+    --principal-color: #d1fff7bd;
+    --secundario-color: #d1fff788;
+    --titulos-size: width: 118px;
+    height: 29px;
+    flex-shrink: 0;
+    --parrafo-size: width: 1572px;
+    height: 588px;
+    flex-shrink: 0;
+
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6{ font-family: 'Sedgwick Ave Display', cursive;
+
+}
+
+p,a,li,button,table{
+    font-family: 'Caveat', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+}
+
+
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: url("../img/fondo.png");
+    background-size: cover;
+}
+
+.bg-portafolio{
+    background: transparent;
+
+}
+
+.bg-portafolio .nav-link{
+    color: black;
+}
+
+header #hero{
+    text-align: center;
+    padding: 8% 0; 
+    background: url("../img/lol.png");
+    background-size: cover;
+}
+ 
+#hero h1{
+    color: var(--titulos-size);
+    
+    
+}
+
+#hero h2{
+    color: var(--titulos-size);
+}
+
+#hero #card1{
+    background: #d1fff72c;
+}
+
+
+#QUIEN_SOY h2 {
+    text-align: center;
+  }
